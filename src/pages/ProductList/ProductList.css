@@ -1,0 +1,129 @@
+/* ProductList.css */
+
+.product-list-container {
+  width: 80%;
+  margin: 0 auto;
+}
+
+.product-list-title {
+  text-align: center;
+  margin: 20px 0;
+}
+
+.product-list-input {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 20px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.product-list {
+  list-style: none;
+  padding: 0;
+}
+
+.product-item {
+  display: flex;
+  align-items: center;
+  padding: 10px;
+  border: 1px solid #ddd;
+  margin-bottom: 10px;
+  border-radius: 4px;
+  transition: background-color 0.3s;
+}
+
+.product-item:hover {
+  background-color: #f9f9f9;
+}
+
+.product-checkbox {
+  margin-right: 10px;
+}
+
+.product-info {
+  display: flex;
+  align-items: center;
+  flex-grow: 1;
+  cursor: pointer;
+}
+
+.product-image img {
+  width: 50px;
+  height: 50px;
+  object-fit: cover;
+  margin-right: 20px;
+  border-radius: 4px;
+}
+
+.product-details {
+  display: flex;
+  flex-direction: column;
+}
+
+.product-name {
+  font-size: 1.2em;
+  font-weight: bold;
+}
+
+.product-description {
+  margin-top: 10px;
+  font-size: 0.9em;
+}
+
+.product-price {
+  margin-top: 5px;
+  font-weight: bold;
+}
+
+.product-actions {
+  display: flex;
+  align-items: center;
+}
+
+button {
+  padding: 10px 15px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+  display: flex;
+  align-items: center;
+}
+
+button i {
+  margin-right: 5px;
+}
+
+button:hover {
+  background-color: #ddd;
+}
+
+.delete-button {
+  background-color: #ff4d4d;
+  color: white;
+  margin-left: 10px;
+}
+
+.delete-button:hover {
+  background-color: #ff1a1a;
+}
+
+.edit-button {
+  background-color: #4CAF50;
+  color: white;
+}
+
+.edit-button:hover {
+  background-color: #45a049;
+}
+
+.bulk-delete-button {
+  background-color: #ff4d4d;
+  color: white;
+  margin-bottom: 20px;
+}
+
+.bulk-delete-button:hover {
+  background-color: #ff1a1a;
+}

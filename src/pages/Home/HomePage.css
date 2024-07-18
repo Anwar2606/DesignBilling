@@ -1,0 +1,156 @@
+
+  
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+
+  .date-picker {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+  }
+  
+  .table-container {
+    overflow-x: auto;
+  }
+  
+  .details-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .details-table th,
+  .details-table td {
+    padding: 12px 15px;
+    text-align: left;
+    border: 1px solid #ddd;
+  }
+  
+  .details-table th {
+    background-color: #f4f4f4;
+  }
+  
+  .details-table tr:hover {
+    background-color: #f1f1f1;
+  }
+  
+  .details-table td button {
+    padding: 6px 12px;
+    background-color: #ff4d4d;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .details-table td button:hover {
+    background-color: #e60000;
+  }
+  
+  .loading,
+  .no-details {
+    text-align: center;
+    font-size: 1.2rem;
+    color: #555;
+  }
+  
+  .graph-container,
+  .grid-container {
+    margin-bottom: 20px;
+  }
+  .custom-datepicker {
+    border: 1px solid #ccc;
+    padding: 10px;
+    border-radius: 4px;
+    width: 100%;
+    box-sizing: border-box;
+  }
+  
+  .custom-datepicker input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+  }
+  
+  .react-datepicker__day--selected,
+  .react-datepicker__day--in-selecting-range,
+  .react-datepicker__day--in-range {
+    background-color: #007bff;
+    color: white;
+  }
+  
+  .react-datepicker__header {
+    background-color: #007bff;
+    border-bottom: 1px solid #007bff;
+    color: white;
+  }
+  
+  .react-datepicker__current-month,
+  .react-datepicker-time__header,
+  .react-datepicker-year-header {
+    color: white;
+  }
+  .table-container {
+    margin-top: 20px;
+  }
+  
+  .details-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+    font-size: 18px;
+    text-align: left;
+  }
+  
+  .details-table th, .details-table td {
+    padding: 12px 15px;
+    border: 1px solid #ddd;
+  }
+  
+  .details-table thead {
+    background-color: #f2f2f2;
+  }
+  
+  .details-table tr:nth-child(even) {
+    background-color: #f9f9f9;
+  }
+  
+  .details-table tr:hover {
+    background-color: #f1f1f1;
+  }
+  
+  .details-table th {
+    background-color: #007bff;
+    color: white;
+  }
+  
+  .details-table button {
+    padding: 5px 10px;
+    background-color: red;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 4px;
+  }
+  
+  .details-table button:hover {
+    background-color: darkred;
+  }
+  
+  .custom-datepicker {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    width: 100%;
+    box-sizing: border-box;
+    margin-bottom: 20px;
+  }
+  
